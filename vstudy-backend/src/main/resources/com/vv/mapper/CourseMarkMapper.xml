@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vv.mapper.CourseMarkMapper">
+
+    <resultMap id="BaseResultMap" type="com.vv.entity.CourseMark">
+            <result property="courseId" column="course_id" />
+            <result property="studentId" column="student_id" />
+            <result property="mark" column="mark" />
+            <result property="comment" column="comment" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        course_id,student_id,mark,comment
+    </sql>
+</mapper>

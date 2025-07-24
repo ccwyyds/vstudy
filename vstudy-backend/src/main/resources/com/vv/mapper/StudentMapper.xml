@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vv.mapper.StudentMapper">
+
+    <resultMap id="BaseResultMap" type="com.vv.entity.Student">
+            <id property="studentId" column="student_id" />
+            <result property="password" column="password" />
+            <result property="unionId" column="union_id" />
+            <result property="mpOpenId" column="mp_open_id" />
+            <result property="name" column="name" />
+            <result property="avatar" column="avatar" />
+            <result property="college" column="college" />
+            <result property="classId" column="class_id" />
+            <result property="profile" column="profile" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+            <result property="isDelete" column="is_delete" />
+            <result property="role" column="role" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        student_id,password,union_id,mp_open_id,name,avatar,
+        college,class_id,profile,create_time,update_time,
+        is_delete,role
+    </sql>
+</mapper>
