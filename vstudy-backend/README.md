@@ -6,7 +6,7 @@
 
 这个一个采用了SpringBoot2 + Vue3 + Ts 的学生选课系统的**个人学习练手小项目**    拥有管理员、学生、教师三种角色。
 
-这部分只是后端代码，前端仓库地址：[vstudy-frontend: 教务系统前端](https://gitee.com/ccw-ccw/vstudy-frontend)
+
 
 ## 项目开发进度
 
