@@ -1,0 +1,17 @@
+# 学生选课管理系后端
+
+**作者:vv   持续更新中**
+
+## 介绍
+
+这个一个采用了SpringBoot2 + Vue3 + Ts 的学生选课系统的**个人学习练手小项目**    拥有管理员、学生、教师三种角色。
+
+这部分只是后端代码，前端仓库地址：[vstudy-frontend: 教务系统前端](https://gitee.com/ccw-ccw/vstudy-frontend)
+
+## 项目开发进度
+
+目前已经完成了登录功能，学生的选课和退课。教师对选课的学生进行评分和编写评语。管理员功能待开发中......
+
+## 项目技术点
+
+使用了Springboot2，Maven，MyBatis Plus ,MySQL, JWT      Java版本8.0及以上，mysql 8.0及以上  

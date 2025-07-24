@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vv.mapper.CourseMapper">
+
+    <resultMap id="BaseResultMap" type="com.vv.entity.Course">
+            <id property="courseId" column="course_id" />
+            <result property="courseName" column="course_name" />
+            <result property="teacherId" column="teacher_id" />
+            <result property="courseClassroom" column="course_classroom" />
+            <result property="courseType" column="course_type" />
+            <result property="courseWeek" column="course_week" />
+            <result property="courseCollege" column="course_college" />
+            <result property="courseScore" column="course_score" />
+            <result property="selectedCount" column="selected_count" />
+            <result property="optionalCount" column="optional_count" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        course_id,course_name,teacher_id,course_classroom,course_type,course_week,
+        course_college,course_score,selected_count,optional_count,create_time,
+        update_time
+    </sql>
+</mapper>
